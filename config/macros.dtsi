@@ -1,3 +1,9 @@
+macro_mousespeed: macro_mousespeed{
+compatible = "zmk,behavior-macro";
+label = "macro_mousespeed";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(LS(NUMBER_1)))>;
+};
 macro_fullscreen_ps: macro_fullscreen_ps{
 compatible = "zmk,behavior-macro";
 label = "macro_fullscreen_ps";
